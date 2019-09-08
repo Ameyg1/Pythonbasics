@@ -8,6 +8,9 @@ from datetime import timedelta
 
 def main():
     print(os.name)
+    print("Exist:"+str(path.exists("textfile.txt")))
+    print("Is a file:"+str(path.isfile("textfile.txt")))
+    print("Is a dir:"+str(path.isdir("textfile.txt")))
 
 
 
